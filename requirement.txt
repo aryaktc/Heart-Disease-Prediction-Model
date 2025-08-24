@@ -1,0 +1,9 @@
+Required Python packages for the Heart Disease Prediction App
+-----------------------------------------------------------------------------
+Use this file to install the dependencies with:
+pip install -r requirements.txt
+-----------------------------------------------------------------------------
+streamlit   # For creating and running the interactive web application UI
+pandas      # For data manipulation, loading the dataset, and creating DataFrames
+scikit-learn # For using the pre-trained machine learning model (Logistic Regression)
+plotly      # For generating the interactive gauge and radar charts
