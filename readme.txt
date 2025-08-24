@@ -2,14 +2,9 @@
 
 A user-friendly web application built with Streamlit to predict the likelihood of heart disease using a trained machine learning model. This tool provides instant predictions and visual feedback based on patient clinical data.
 
-![Heart Disease Predictor Screenshot](https://i.imgur.com/your-screenshot-url.png)
-*(**Note:** Replace the URL above with a link to a screenshot of your running app for a complete profile.)*
-
 ---
 
-## 📋 Project Overview
-
-This project demonstrates a full end-to-end machine learning workflow, from data exploration and model training to deployment as an interactive web application. The core of the application is a Logistic Regression model trained on the Heart Disease UCI dataset to classify whether a patient is likely to have heart disease. The Streamlit front-end provides an intuitive interface for users to input data and receive real-time, visualized predictions.
+### 🚀 [Live Demo Link](http://localhost:8501/)
 
 ---
 
@@ -20,7 +15,16 @@ This project demonstrates a full end-to-end machine learning workflow, from data
 -   **Rich Data Visualization**:
     -   A **Risk Gauge** chart to visually represent the probability of heart disease.
     -   A **Radar Chart** to compare the patient's key metrics against healthy reference values.
--   **Detailed Sidebar**: Contains model details, project information, and a clear disclaimer on the app's educational purpose.
+
+---
+
+## 📸 Application Screenshots
+
+| Input Form | Prediction Result |
+| :---: | :---: |
+| ![Input Form](https://github.com/aryaktc/Heart-Disease-Prediction-Model/blob/main/images/Screenshot%202025-08-24%20220300.png?raw=true) | ![Prediction Result](https://github.com/aryaktc/Heart-Disease-Prediction-Model/blob/main/images/Screenshot%202025-08-24%20220338.png?raw=true) |
+| **Patient Profile Analysis** |
+| ![Patient Profile](https://github.com/aryaktc/Heart-Disease-Prediction-Model/blob/main/images/Screenshot%202025-08-24%20220403.png?raw=true) |
 
 ---
 
@@ -47,8 +51,8 @@ Follow these instructions to set up and run the project on your local machine.
 
 1.  **Clone the GitHub repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/heart-disease-predictor.git](https://github.com/YOUR_USERNAME/heart-disease-predictor.git)
-    cd heart-disease-predictor
+    git clone [https://github.com/aryaktc/Heart-Disease-Prediction-Model.git](https://github.com/aryaktc/Heart-Disease-Prediction-Model.git)
+    cd Heart-Disease-Prediction-Model
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -73,14 +77,3 @@ Follow these instructions to set up and run the project on your local machine.
     ```
 
 The application will automatically open in a new tab in your default web browser.
-
----
-
-## 📂 Repository Structure
-
-├── app.py                      # Main Streamlit application script├── trained_model.sav           # Pre-trained Logistic Regression model file├── Heart_disease_predictor.ipynb # Jupyter Notebook with the model training process├── heart_disease_data.csv      # The dataset used for training├── requirements.txt            # List of required Python packages└── README.md                   # Project documentation
----
-
-## ⚠️ Disclaimer
-
-This application is developed for **educational and demonstration purposes only**. It is **not a medical diagnostic tool** and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare professional for any medical concerns.
